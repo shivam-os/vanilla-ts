@@ -1,0 +1,54 @@
+body {
+  font-family: monospace;
+  font-size: 1.25rem;
+  background-color: #1b1b32;
+  color: whitesmoke;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 2rem;
+}
+
+.header-button {
+  background-color: orange;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: whitesmoke;
+  color: #1b1b32;
+  padding: 1rem;
+  border-radius: 3%;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.35rem;
+}
+
+.card-button {
+  background-color: orange;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
